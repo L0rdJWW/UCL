@@ -1,0 +1,12 @@
+.sprite {
+    width: 1000px;
+    height: 1000px;
+    background: url('png/justdoit-01.png') 0 0 no-repeat;
+    animation: play 4s steps(13) infinite;
+    animation-direction: alternate;
+}
+
+@keyframes play {
+    0%{background-position: 10px;}
+    100%{background-position: -13400px;}
+}
